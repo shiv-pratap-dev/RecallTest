@@ -122,7 +122,7 @@ body {
     display: flex;
     align-items: center;
     gap: 11px;
-    font-family: 'Cabin Condensed', sans-serif;
+    font-family: var(--font);
     font-size: 28px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -203,7 +203,7 @@ body {
     overflow: hidden;
 }
 #taglineText {
-    font-family: 'Khula', sans-serif;
+    font-family: var(--font);
     font-size: clamp(14px, 2.2vw, 20px);
     font-weight: 700;
     color: var(--fg2);
@@ -213,7 +213,7 @@ body {
     transition: color var(--t);
 }
 .tagline-cursor {
-    font-family: 'Khula', sans-serif;
+    font-family: var(--font);
     font-size: clamp(14px, 2.2vw, 20px);
     color: var(--primary);
     margin-left: 2px;
